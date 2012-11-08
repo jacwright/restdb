@@ -1,0 +1,34 @@
+{
+  "name": "http-server",
+  "version": "0.1.0",
+  "author": "Jacob Wright <jacwright@gmail.com>",
+  "description": "A RESTful database: inspired by CouchDB, built with JavaScript, on Node.js, backed by leveldb, at one with the web.",
+  "contributors": [ 
+    {
+      "name": "Jacob Wright",
+      "email": "jacwright@gmail.com"
+    } 
+  ],
+  "main": "./lib/restdb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacwright/restdb.git"
+  },
+  "keywords": [
+    "REST",
+    "database",
+    "server"
+  ],
+  "dependencies": {
+    "express":  "*",
+    "leveldb":  "*",
+    "request":  "*",
+    "gossiper":  "*",
+    "msgpack":  "*",
+    "mdns":  "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
