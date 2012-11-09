@@ -1,5 +1,5 @@
 {
-  "name": "http-server",
+  "name": "restdb",
   "version": "0.1.0",
   "author": "Jacob Wright <jacwright@gmail.com>",
   "description": "A RESTful database: inspired by CouchDB, built with JavaScript, on Node.js, backed by leveldb, at one with the web.",
