@@ -7,8 +7,11 @@
     {
       "name": "Jacob Wright",
       "email": "jacwright@gmail.com"
-    } 
+    }
   ],
+  "bin": {
+    "restdb": "./bin/restdb"
+  },
   "main": "./lib/restdb",
   "repository": {
     "type": "git",
@@ -20,12 +23,13 @@
     "server"
   ],
   "dependencies": {
-    "express":  "*",
-    "leveldb":  "*",
-    "request":  "*",
-    "gossiper":  "*",
-    "msgpack":  "*",
-    "mdns":  "*"
+    "express": "*",
+    "commander": "*",
+    "leveldb": "*",
+    "request": "*",
+    "gossiper": "*",
+    "msgpack": "*",
+    "mdns": "*"
   },
   "license": "MIT",
   "engines": {
